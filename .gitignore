@@ -1,0 +1,46 @@
+# --- Datos de cliente: NUNCA se versionan ---------------------------------
+# Las capturas y los reportes generados contienen inventario de activos,
+# direccionamiento, firmware y topologia de la planta. No deben salir del
+# equipo de trabajo ni subirse a un repositorio.
+*.pcap
+*.pcapng
+*.cap
+*.pcap.gz
+*.pcapng.gz
+*.erf
+*.snoop
+
+reporte_*/
+salida_*/
+prueba_*/
+out/
+resultados/
+*.log
+
+# Salidas del script sueltas
+reporte_ot.html
+reporte_ot.md
+inventario.csv
+comunicaciones.csv
+activos.csv
+flujos.csv
+identidad.csv
+hallazgos.csv
+control.csv
+resultado.json
+
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# --- Editores / SO --------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude/launch.json
