@@ -44,3 +44,8 @@ venv/
 .DS_Store
 Thumbs.db
 .claude/launch.json
+
+# Zips de entregables (contienen datos de cliente)
+*.zip
+*.7z
+*.rar
